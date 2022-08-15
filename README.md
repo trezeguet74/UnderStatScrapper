@@ -1,8 +1,8 @@
-Note: UnderStat website contains only league data, not UEFA Champions league or International matches.
+Note: UnderStat website contains only league matches data, not UEFA Champions league or International matches.
 
 This notebook contains a code scrapes the data for a single player from understat.com website, which provides a statistical data for the top 5 leagues from 2014/2015 season until now. You can scrape all the data you need by only passing the player id from the website, and then this notebook will do it all. To accomplish my work, I have used some sources I'll mention them lately.
 
-To explain my code, I'll use the "Egyptian king" Mohamed Salah as an example:
+To explain my code, I'll use the Egyptian king "Mohamed Salah" as an example:
 
 ![search tab](https://user-images.githubusercontent.com/80650976/184650011-dd52a99b-c14c-4246-b68c-b617a6173b8f.PNG)
 
@@ -40,7 +40,9 @@ This function scrapes the intetractive shotmap in the website and returns it in 
 
 5-  TimeTier():
 
-This function filter the shots by the time interval, which was set for every 15 minutes and return a output like below:
+This function filter the shots by the time interval, which was set for every 15 minutes. 
+
+The output:
 
 ![TimeTier](https://user-images.githubusercontent.com/80650976/184658406-96ea5033-0923-4243-9ada-93781aef78b6.PNG)
 
@@ -54,4 +56,47 @@ The output:
 
 ![xG Tier](https://user-images.githubusercontent.com/80650976/184660645-7805218e-b3ca-405c-be1d-8dc9428ccc90.PNG)
 
+7- ShotsArea():
 
+This function returns a csv. file with the shot zones filtered by season.
+
+The output:
+
+![ShotsArea](https://user-images.githubusercontent.com/80650976/184661402-f8ec0729-1263-490c-8819-d50b6fc8458d.PNG)
+
+8- PlotShots()
+
+This function recreates the interactive shot map using mplsoocer package
+
+![shotmap](https://user-images.githubusercontent.com/80650976/184662362-6d38a6e5-7e6b-46f7-860f-3b915cd0e160.PNG)
+
+9- KeyPassers()
+
+This function displays the top key passers for the player, and returns the output in a csv. file
+
+The Output:
+
+![keypassers](https://user-images.githubusercontent.com/80650976/184663075-bf75ff8c-2400-449c-b4ed-a470a77fd0b3.PNG)
+
+10- KeyPassTypes()
+
+This function displays the top key pass types, and returns the output in a csv. file.
+
+The Output:
+
+![KeyPassTypes](https://user-images.githubusercontent.com/80650976/184665108-7ca70ddb-5802-42c3-b80c-56c8fc9aa063.PNG)
+
+
+Sources:
+
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KOaJ6RFACrU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2RhTuRWNqUc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IsR5FrjNmro" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
