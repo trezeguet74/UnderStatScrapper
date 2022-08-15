@@ -89,12 +89,14 @@ The Output:
 
 Sources:
 
-
-
-https://www.youtube.com/embed/KOaJ6RFACrU
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/2RhTuRWNqUc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/IsR5FrjNmro" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ * How to scrape Understat for football data in Python with requests and BeautifulSoup - McKay Johns (YouTube)
+   https://youtu.be/IsR5FrjNmro
+  
+ * How to create football shot maps in python - McKay Johns (YouTube)
+  https://youtu.be/2RhTuRWNqUc
+ 
+ * mplsoccer package documentaion
+  https://mplsoccer.readthedocs.io/en/latest/index.html#
+ 
+ * من أين تأتي الأهداف؟ - سبورت 360 عربية(YouTube)
+  https://www.youtube.com/watch?v=KOaJ6RFACrU
