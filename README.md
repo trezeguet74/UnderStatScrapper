@@ -68,7 +68,7 @@ The output:
 
 This function recreates the interactive shot map using mplsoocer package
 
-![shotmap](https://user-images.githubusercontent.com/80650976/184662362-6d38a6e5-7e6b-46f7-860f-3b915cd0e160.PNG)
+![Mohamed Salah 1250](https://user-images.githubusercontent.com/80650976/187049314-74490e67-ba96-402a-94df-bab2d163ba28.jpg)
 
 9- KeyPassers()
 
