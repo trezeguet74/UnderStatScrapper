@@ -86,7 +86,6 @@ The Output:
 
 ![KeyPassTypes](https://user-images.githubusercontent.com/80650976/184665108-7ca70ddb-5802-42c3-b80c-56c8fc9aa063.PNG)
 
-
 Sources:
 
  * How to scrape Understat for football data in Python with requests and BeautifulSoup - McKay Johns (YouTube)
